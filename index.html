@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Courage Managérial</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Calibri, sans-serif;
+      line-height: 1.6;
+      color: #333;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 1rem;
+    }
+    header {
+      text-align: center;
+      padding: 2rem 0;
+    }
+    header img {
+      max-width: 150px;
+      display: block;
+      margin: 0.5rem auto;
+    }
+    header h1 {
+      margin: 0.5rem 0;
+      font-size: 2.5rem;
+      color: #473c32;
+    }
+    header p {
+      font-size: 1.1rem;
+      color: #94c11f;
+    }
+    .accordion {
+      margin-top: 2rem;
+    }
+    .accordion-item {
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      margin-bottom: 1rem;
+      overflow: hidden;
+    }
+    .accordion-header {
+      background: #94c11f;
+      color: #fff;
+      padding: 0.75rem 1rem;
+      cursor: pointer;
+    }
+    .accordion-body {
+      display: none;
+      padding: 1rem;
+      background: #f9f9f9;
+    }
+    .accordion-body p, .accordion-body ul {
+      margin: 0.5rem 0;
+    }
+    .map,
+    .downloads,
+    .visual,
+    footer {
+      margin-top: 2rem;
+    }
+    .downloads a {
+      display: inline-block;
+      margin-right: 1rem;
+      margin-bottom: 1rem;
+      padding: 0.75rem 1.5rem;
+      background: #ee7601;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 4px;
+    }
+    .visual img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    footer {
+      text-align: center;
+      padding: 1.5rem 0;
+      background: #473c32;
+      color: #fff;
+      font-size: 0.9rem;
+    }
+    @media (max-width: 600px) {
+      header h1 { font-size: 2rem; }
+      .downloads a { width: 100%; text-align: center; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <header>
+      <img src="Abylon.jpg" alt="Logo Abylon">
+      <h1>Courage Managérial</h1>
+      <p>Développez votre courage managérial pour naviguer en environnement VUCA</p>
+    </header>
+
+    <!-- Programme en accordéon -->
+    <section class="accordion">
+      <div class="accordion-item">
+        <div class="accordion-header">Module 1 – Fundamentals du courage (½ journée)</div>
+        <div class="accordion-body">
+          <ul>
+            <li>Définition du courage managérial</li>
+            <li>Cadre VUCA</li>
+            <li>Étude de cas</li>
+          </ul>
+          <p><em>Méthode :</em> Apports théoriques, exercices de réflexion</p>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <div class="accordion-header">Module 2 – Connaissance de soi (½ journée)</div>
+        <div class="accordion-body">
+          <ul>
+            <li>Identification des valeurs</li>
+            <li>Analyse des situations de zone de confort</li>
+            <li>Plan d’action individuel</li>
+          </ul>
+          <p><em>Méthode :</em> Tests, retours d’expérience</p>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <div class="accordion-header">Module 3 – Communication assertive (1 journée)</div>
+        <div class="accordion-body">
+          <ul>
+            <li>Techniques de feedback constructif</li>
+            <li>Gestion des conflits</li>
+            <li>Jeux de rôle</li>
+          </ul>
+          <p><em>Méthode :</em> Ateliers pratiques</p>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <div class="accordion-header">Module 4 – Leadership inspirant (1 journée)</div>
+        <div class="accordion-body">
+          <ul>
+            <li>Posture de leader</li>
+            <li>Narration influente</li>
+            <li>Coaching d’équipe</li>
+          </ul>
+          <p><em>Méthode :</em> Mises en situation</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Carte interactive -->
+    <section class="map">
+      <h2>Lieu de la formation</h2>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.123456789!2d2.300000!3d48.876543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66f123456789%3A0xabcdef1234567890!2s12%20Rue%20de%20l'%C3%89lys%C3%A9e!5e0!3m2!1sfr!2sfr!4v0000000000000"
+        width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+      </iframe>
+      <p>12 Rue de l'Isly, 75008 Paris</p>
+      <p>Le 8 juillet de 8h30 à 12h30</p>
+    </section>
+
+    <!-- Téléchargements -->
+    <section class="downloads">
+      <h2>Téléchargements</h2>
+      <a href="Programme de formation_courage managérial_1.pdf" download>Programme détaillé (PDF)</a>
+    </section>
+
+    <!-- Visuel thématique -->
+    <section class="visual">
+      <h2>Illustration – « Courage Managérial »</h2>
+      <img src="https://via.placeholder.com/900x400?text=Courage+Manag%C3%A9rial" alt="Illustration courage managérial">
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>Contact : mickael.loeuille@gmail.com | 06 81 25 53 88</p>
+    </footer>
+  </div>
+
+  <script>
+    // Simple JS pour l'accordéon
+    document.querySelectorAll('.accordion-header').forEach(header => {
+      header.addEventListener('click', () => {
+        const body = header.nextElementSibling;
+        body.style.display = body.style.display === 'block' ? 'none' : 'block';
+      });
+    });
+  </script>
+</body>
+</html>
